@@ -21,9 +21,9 @@
             
                     <nav>
                         <ul>
-                            <li class=""><a href="#" class="p-a">Miksi en tehnyt maalausta?</a></li>
+                            <li class=""><a href="#" class="p-a">Teoksesta</a></li>
                             
-                            <li class=""><a href="#" class="p-a">HTML, CSS häh?</a></li>
+                            <li class=""><a href="#" class="p-a">Tekniikka</a></li>
                         
                             <li class=""><a href="#" class="p-a">Järjestys/epäjärjestys taiteessa ja kulttuurissa</a></li>
                         </ul>
@@ -60,5 +60,18 @@
             </div>
             
         </div>
+        
+        <div class="hide">hide</div>
+        
+        <script>
+var hide = document.querySelector(".hide")          
+var password = "kuvistyö";
+var pass_entered = prompt('Kirjoita tähän salasana:','');
+            
+if (pass_entered==password) {
+    hide.classList.add("show");
+};
+
+        </script>
     </body>
 </html>
