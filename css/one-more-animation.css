@@ -1,0 +1,12 @@
+/*.dot:nth-child(94), .hover:hover .dot:nth-child(95), .hover:hover .dot:nth-child(96), .hover:hover .dot:nth-child(13), .hover:hover .dot:nth-child(14), .hover:hover .dot:nth-child(15), .hover:hover .dot:nth-child(16), .hover:hover .dot:nth-child(17), .hover:hover .dot:nth-child(18), .hover:hover .dot:nth-child(19), .hover:hover .dot:nth-child(22), .hover:hover .dot:nth-child(32), .hover:hover .dot:nth-child(42), .dot:nth-child(77), .hover:hover .dot:nth-child(53), .hover:hover .dot:nth-child(56) {
+ animation-name: size;
+}
+
+@keyframes size {
+    from {
+       border-radius: 100px;
+    }
+    to {
+       border-radius: 0px;
+}
+*/
