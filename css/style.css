@@ -170,9 +170,12 @@ background:
     position: relative;
     display: inline-block;
     vertical-align: top;
-    width: 7px;
+    /*width: 7px;
     height: 7px;
     border: 4px solid;
+    */
+    width: 15px;
+    height: 15px;
     border-radius: 100px;
     margin-right: 35px;
     margin-bottom: 35px;
@@ -251,21 +254,26 @@ background:
 
 .dot:nth-child(10n), .dot:nth-child(9), .dot:nth-child(8), .dot:nth-child(7), .dot:nth-child(6), .dot:nth-child(5), .dot:nth-child(4), .dot:nth-child(3), .dot:nth-child(2), .dot:nth-child(91), .dot:nth-child(93), .dot:nth-child(92), .dot:nth-child(94), .dot:nth-child(95), .dot:nth-child(96), .dot:nth-child(97), .dot:nth-child(98), .dot:nth-child(99), .dot:nth-child(1), .dot:nth-child(11), .dot:nth-child(21), .dot:nth-child(31), .dot:nth-child(41), .dot:nth-child(51), .dot:nth-child(61), .dot:nth-child(71), .dot:nth-child(81)  {
     border-color: #ffffff;
+    background-color: #ffffff;
 }
 
 .dot:nth-child(12), .dot:nth-child(13), .dot:nth-child(14), .dot:nth-child(15), .dot:nth-child(16), .dot:nth-child(17), .dot:nth-child(18), .dot:nth-child(19), .dot:nth-child(22), .dot:nth-child(32), .dot:nth-child(42), .dot:nth-child(52), .dot:nth-child(62), .dot:nth-child(72), .dot:nth-child(82), .dot:nth-child(83), .dot:nth-child(84), .dot:nth-child(85), .dot:nth-child(86), .dot:nth-child(87), .dot:nth-child(88), .dot:nth-child(89), .dot:nth-child(79), .dot:nth-child(69), .dot:nth-child(59), .dot:nth-child(49), .dot:nth-child(39), .dot:nth-child(29) {
     border-color: #a7ff41;
+     background-color: #a7ff41;
 }
 
 .dot:nth-child(23), .dot:nth-child(24), .dot:nth-child(25), .dot:nth-child(26), .dot:nth-child(27), .dot:nth-child(28), .dot:nth-child(38), .dot:nth-child(48), .dot:nth-child(58), .dot:nth-child(68), .dot:nth-child(78), .dot:nth-child(77), .dot:nth-child(76), .dot:nth-child(75), .dot:nth-child(74), .dot:nth-child(73), .dot:nth-child(63), .dot:nth-child(53), .dot:nth-child(43), .dot:nth-child(33) {
     border-color: #7d59f5;
+     background-color: #7d59f5;
 }    
 .dot:nth-child(44), .dot:nth-child(34), .dot:nth-child(54), .dot:nth-child(64), .dot:nth-child(65), .dot:nth-child(66), .dot:nth-child(67), .dot:nth-child(57), .dot:nth-child(47), .dot:nth-child(37), .dot:nth-child(36), .dot:nth-child(35) {
     border-color: #ff0e0e;
+     background-color: #ff0e0e;
 }
 
 .dot:nth-child(45), .dot:nth-child(46), .dot:nth-child(55), .dot:nth-child(56) {
     border-color: #f8f84c; 
+     background-color: #f8f84c; 
 }
 
 /*
