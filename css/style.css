@@ -12,6 +12,11 @@ background:
     /*something crazy happened and I had to add this*/
 }
 
+.portfolio-body {
+background:
+        linear-gradient(160deg, #0a1f31, #29524f, #161440, #0d2a25, #0a0f2c) no-repeat;
+}
+
 .container {
     width: 750px;
     margin: auto;
