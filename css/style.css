@@ -17,8 +17,11 @@ background:
     position: fixed;
     height: 100%;
     width: 100%;
-    background: radial-gradient(circle at 50% 10%, #000000 10%, transparent 90%) no-repeat,
-        linear-gradient(160deg, #004a50, #2f1639, #0c284a) no-repeat;
+    /*background: radial-gradient(circle at 50% 10%, #000000 10%, transparent 90%) no-repeat,
+        linear-gradient(160deg, #004a50, #58506f, #0c284a) no-repeat;*/
+    background:
+        radial-gradient(circle at 50% 10%, #000000 10%, transparent 90%) no-repeat,
+        linear-gradient(160deg, #1a3b57, #1e3937) no-repeat;
 }
 
 .container {
@@ -102,7 +105,7 @@ h2{
     transition-duration: 0.3s;
 }
 
-.open-text:hover h2 {
+.open-text:hover h2, .open-text-2:hover h2 {
     color: #211ad4;
 }
 
@@ -209,8 +212,8 @@ background:
     border-radius: 100px;
     margin-right: 37px;
     margin-bottom: 37px;
-    -webkit-animation-duration: 1s;
-            animation-duration: 1s;
+    -webkit-animation-duration: 0.8s;
+            animation-duration: 0.8s;
     -webkit-animation-fill-mode: forwards;
             animation-fill-mode: forwards;
     -webkit-animation-timing-function: ease-in-out;
