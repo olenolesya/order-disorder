@@ -29,21 +29,26 @@
                     </nav>
                 </div>
             </div>
-        <div class="main-container container">
+        <div class="container">
             <div class="content">
                 <h1>
                     Ei hätää, kuvataidediplomin arvioijat
                 </h1>
                 
                 <p>
-                    HTML ja CSS ovat erittäin helppoja kieliä ymmärtää! Kerron teille  tarkasti ja perusteellisesti, miten tein teokseni ja mitä jokainen sana teoksen koodissa tekee. <!--Yritän myös välittää, miksi rakastuin koodaukseen ja toivottavasti lukemisen jälkeen teillekin avautuu tämä ihana koodauksen maailma, josta ei arjessa tulisi edes ajateltua.-->
+                    HTML ja CSS ovat erittäin helppoja kieliä ymmärtää! Kerron mahdollisimman selvästi, miten tein teokseni ja miten se toimii. Jotta se olisi mahdollista, aluksi kerron tekniikasta yleisesti ja sitten siirryn omaan teokseen.
                 </p>
+        </div>        
+        <div class="content">
             
             <h2>
                 HTML ja CSS  pähkinänkuoressa
                 </h2>
                 <p>
-                    <span class="hl">HTML</span> on merkintäkieli, joka kertoo selaimelle mitä sivulla on. HTML voi sanoa selaimelle "Tämä on otsikko!" tai "Tämä on kappale!" tai vaikkapa "Tämä on linkki". Vaikkei se osaa sanoa mitään muuta kuin "Tämä on...", vaihtoehtoja mitä tämä on on valtavasti. 
+                    Suoraan asiaan.
+                </p>
+                <p>
+                    HTML on merkintäkieli, joka kertoo selaimelle mitä sivulla on. HTML voi sanoa selaimelle "Tämä on otsikko!" tai "Tämä on kappale!" tai vaikkapa "Tämä on linkki". Vaikkei se osaa sanoa mitään muuta kuin "Tämä on...", vaihtoehtoja mitä tämä on on valtavasti. 
                 </p>    
                 <p>
                     Alla olevassa kuvassa HTML sanoo "Tämä on otsikko (h1), tämä on kappale (p), jonka sisällä on linkki (a), joka vie osoitteeseen www.linkki.fi, tämä on nappi (button)." 
@@ -57,18 +62,35 @@
                 </p>
                 <img src="img/esim2.jpg">
                 <p>
-                    Onneksi olkoon! Tiedät nyt kaiken, mitä pitää tietää HTML:stä ymmärtääkseen mistä on puhe.
+                    Kuten näette, pelkällä HTML:llä ei pitkälle päästä. Avuksi tarvitaan tyyliohjeiden kieli CSS, joka on jo paljon monipuolisempi. (Kummatkaan HTML eikä CSS eivät ole "oikeita" ohjelmointikieliä, mutta CSS on niin kehittynyt, että sillä voi tehdä monia asioita, joihin ennen tarvittiin niitä "oikeita" ohjelmointikieliä.)
                 </p>
                 <p>
-                Tietysti, jotta koodia pystyisi kirjoittamaan, pitää osata paljon enemmän asioita ja sääntöjä, sekä yksinkertaisinkin toimiva sivu on suunilleen 100 riviä pitkä
+                    Kuten nimestäkin näkyy (tyyliohjeiden kieli), CSS antaa selaimelle ohjeita, miltä HTLM pitäisi näyttää. Se voi sanoa jotain seuraavan tapaista: "Otsikko on punainen, sen koko on 30 pikseliä, ja sen ympärillä pitää olla 20 pikseliä tilaa. Kappaleet ovat mustalla tekstillä. Linkkien pohjaväri on sininen ja teksti valkoinen."
+                </p>
+                <p>
+                    CSS:llä on valtava sanavarasto. Se voi sanoa mitä vain. Jopa ammattilaiset tuskin tietävät kaikkia sen mahdollisuuksia.
+                </p>
+                <p>
+                    CSS ja HTML ovat yhteydessä "silloilla", joita kutsutaan selektoreiksi (engl. select). Ne siis valitsevat tiettyjä kohteita. Selektoreja on paljon erilaisia ja ne voivat olla erittäin monimutkaisia. Joku voi esimerkiksi tarkoittaa "jos siirrät kursorin X:n, joka on Y:n sisällä päälle, tee jotain". 
+                </p>
+                <p>
+                    Alla olevasta kuvasta näkyy, miten CSS toimii yksinkertaisuudessaan. Ensin seuraa "silta" ja sitten ohjeet valituille kohteille. 
+                </p>
+                <img src="img/esim3.jpg">
+                <p>
+                    Ja tältä meidän sivusto nyt näyttää:
+                </p>
+                <img src="img/esim4.jpg">
+                <p>
+                    Ei kovinkaan kaunis, mutta toivottavasti ymmärrätte nyt, mistä on kyse ja voimme siirtyä takaisin kuvisdiplomi-asiaan.
                 </p>
             </div>
-            
+           
         </div>
         
-        <div class="hide"></div>
+     <!--      <div class="hide"></div>
         
-        <script>
+     <script>
 var hide = document.querySelector(".hide")          
 var password = "kuvistyö";
 var pass_entered = prompt('Kirjoita tähän salasana:','');
@@ -76,7 +98,6 @@ var pass_entered = prompt('Kirjoita tähän salasana:','');
 if (pass_entered==password) {
     hide.classList.add("show");
 };
-
-        </script>
+        </script>-->
     </body>
 </html>

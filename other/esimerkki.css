@@ -1,0 +1,23 @@
+h1 {
+    color: red;
+    font-size: 30px;
+    padding: 20px;
+}
+
+p {
+    color: black;
+}
+
+a {
+    background-color: blue;
+    color: white;
+}
+
+.nappi {
+    color: blue;
+    padding: 20px;
+    margin: auto;
+    background-color: pink;
+    font-size: 20px;
+    border: 2px solid orange;
+}
