@@ -154,7 +154,7 @@ background:
 
 .canvas {
     box-shadow:  
-        0 0 0 5px #313a67,
+        0 0 0 5px #07625f,
         0 0 0 50px #1D1D1D,
         0 0 0 55px #000000;
     width: 489px;
@@ -261,11 +261,11 @@ background:
      background-color: #8f6dff;
 }    
 .dot:nth-child(44), .dot:nth-child(34), .dot:nth-child(54), .dot:nth-child(64), .dot:nth-child(65), .dot:nth-child(66), .dot:nth-child(67), .dot:nth-child(57), .dot:nth-child(47), .dot:nth-child(37), .dot:nth-child(36), .dot:nth-child(35) {
-     background-color: #7fde91;
+     background-color: #7fdec8;
 }
 
 .dot:nth-child(45), .dot:nth-child(46), .dot:nth-child(55), .dot:nth-child(56) { 
-     background-color: #fff1f6; 
+     background-color: #dcfeff; 
 }
 
 /*
