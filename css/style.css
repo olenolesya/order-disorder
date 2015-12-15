@@ -12,14 +12,22 @@ background:
     /*something crazy happened and I had to add this*/
 }
 
-.portfolio-body {
-background:
-        linear-gradient(160deg, #0a1f31, #29524f, #161440, #0d2a25, #0a0f2c) no-repeat;
+.portfolio-bg {
+    z-index: -99999;
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    background: radial-gradient(circle at 50% 10%, #000000 10%, transparent 90%) no-repeat,
+        linear-gradient(160deg, #004a50, #2f1639, #0c284a) no-repeat;
 }
 
 .container {
     width: 750px;
     margin: auto;
+}
+
+.page-height {
+    min-height: 900px;
 }
 
 .img {
@@ -43,6 +51,7 @@ li {
 
 
 a {
+    cursor: crosshair;
     display: inline-block;
     vertical-align: top;
     color: #6171ac;
@@ -55,14 +64,14 @@ a {
 }
 
 .p-a {
-    color: #dde3df;
+    color: #a3e3e1;
     font-size: 16px;
     border: none;
     margin-top: 5px;
 }
 
 .p-a:hover {
-    color: #c59ad8;
+    color: #ffffff;
 }
 
 a:hover {
@@ -86,8 +95,23 @@ h1 {
     margin: 15px 0px;
 }
 
-h2 {
-    color: #2571eb;
+h2{
+    text-align: center;
+    color: #2d7eff; 
+    transition: color;
+    transition-duration: 0.3s;
+}
+
+.open-text:hover h2 {
+    color: #211ad4;
+}
+
+.text, .text-2 {
+    display: none;
+}
+
+.text-show {
+    display: block;
 }
 
 .hl {
@@ -97,9 +121,10 @@ h2 {
 
 .content {
     background-color: rgba(240, 248, 255, 0.9);
-    padding: 15px 90px;
+    padding: 15px 60px;
     margin-top: 25px;
 }
+
 
 .hide {
     content: "";

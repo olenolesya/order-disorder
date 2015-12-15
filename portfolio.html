@@ -7,8 +7,8 @@
         <link href='https://fonts.googleapis.com/css?family=Roboto+Condensed:300' rel='stylesheet' type='text/css'>
         <link rel="shortcut icon" href="img/favicon.png" type="image/png">
     </head>
-    <body class="portfolio-body">
-        
+    <body>
+        <div class="portfolio-bg"></div>
             <div class="header">
                 <div class="container">
                     <nav>
@@ -29,21 +29,23 @@
                     </nav>
                 </div>
             </div>
-        <div class="container">
+        <div class="container page-height">
             <div class="content">
                 <h1>
                     Ei hätää, kuvataidediplomin arvioijat
                 </h1>
                 
                 <p>
-                    HTML ja CSS ovat erittäin helppoja kieliä ymmärtää! Kerron mahdollisimman selvästi, miten tein teokseni ja miten se toimii. Jotta se olisi mahdollista, aluksi kerron tekniikasta yleisesti ja sitten siirryn omaan teokseen.
+                    HTML ja CSS ovat erittäin helppoja kieliä ymmärtää! Kerron mahdollisimman selkeästi, miten tein teokseni ja miten se toimii. Jotta se olisi mahdollista, aluksi kerron tekniikasta yleisesti ja sitten siirryn omaan teokseen.
                 </p>
         </div>        
-        <div class="content">
+        <div class="content open-text">
             
             <h2>
                 HTML ja CSS  pähkinänkuoressa
-                </h2>
+            </h2>
+            
+            <div class="text">
                 <p>
                     Suoraan asiaan.
                 </p>
@@ -85,19 +87,35 @@
                     Ei kovinkaan kaunis, mutta toivottavasti ymmärrätte nyt, mistä on kyse ja voimme siirtyä takaisin kuvisdiplomi-asiaan.
                 </p>
             </div>
-           
-        </div>
-        
-     <!--      <div class="hide"></div>
-        
-     <script>
-var hide = document.querySelector(".hide")          
-var password = "kuvistyö";
-var pass_entered = prompt('Kirjoita tähän salasana:','');
+            </div>
             
-if (pass_entered==password) {
-    hide.classList.add("show");
-};
-        </script>-->
+        <div class="content open-text-2">
+            <h2> 
+                Minun teos
+            </h2>
+            <div class="text-2">
+                bagaga
+            </div>
+        </div>
+           
+     <script>
+         var block = document.querySelector(".open-text");
+         var block2 = document.querySelector(".open-text-2");
+         var popup = document.querySelector(".text");
+         var popup2 = document.querySelector(".text-2");
+
+         
+         block.addEventListener("click", function() {
+             event.preventDefault();
+             popup.classList.toggle("text-show")
+         });
+         
+          block2.addEventListener("click", function() {
+             event.preventDefault();
+             popup2.classList.toggle("text-show")
+         });
+         
+         
+        </script>
     </body>
 </html>
