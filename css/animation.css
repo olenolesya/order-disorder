@@ -4194,7 +4194,7 @@
 
 
 
-/*
+
 
 .canvas:hover .dot:nth-child(XX){
     animation-name: aniXX;
@@ -4207,7 +4207,7 @@
         top: 0px; left: 0px;
     }
     to {
-        top: 0px; left: 0px;
+        N
     }
 }
 @keyframes aniXX-b {
@@ -4219,4 +4219,3 @@
     }
 }
 
-*/
