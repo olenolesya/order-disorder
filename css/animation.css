@@ -2191,7 +2191,7 @@
         top: 0px; left: 0px;
     }
     to {
-        top: 10px; left: -100px;
+        top: 10px; left: -140px;
     }
 }
 @keyframes ani53 {
@@ -2199,12 +2199,12 @@
         top: 0px; left: 0px;
     }
     to {
-        top: 10px; left: -100px;
+        top: 10px; left: -140px;
     }
 }
 @-webkit-keyframes ani53-b {
     from {
-        top: 10px; left: -100px;
+        top: 10px; left: -140px;
     }
     to {
         top: 0px; left: 0px;
@@ -2212,7 +2212,7 @@
 }
 @keyframes ani53-b {
     from {
-        top: 10px; left: -100px;
+        top: 10px; left: -140px;
     }
     to {
         top: 0px; left: 0px;
@@ -3366,7 +3366,7 @@
         top: 0px; left: 0px;
     }
     to {
-        top: 93px; left: 121px;
+        top: 113px; left: 121px;
     }
 }
 @keyframes ani81 {
@@ -3374,12 +3374,12 @@
         top: 0px; left: 0px;
     }
     to {
-        top: 93px; left: 121px;
+        top: 113px; left: 121px;
     }
 }
 @-webkit-keyframes ani81-b {
     from {
-        top: 93px; left: 121px;
+        top: 113px; left: 121px;
     }
     to {
         top: 0px; left: 0px;
@@ -3387,7 +3387,7 @@
 }
 @keyframes ani81-b {
     from {
-        top: 93px; left: 121px;
+        top: 113px; left: 121px;
     }
     to {
         top: 0px; left: 0px;
@@ -3576,7 +3576,7 @@
         top: 0px; left: 0px;
     }
     to {
-        top: 55px; left: 55px;
+        top: 95px; left: 55px;
     }
 }
 @keyframes ani86 {
@@ -3584,12 +3584,12 @@
         top: 0px; left: 0px;
     }
     to {
-        top: 55px; left: 55px;
+        top: 95px; left: 55px;
     }
 }
 @-webkit-keyframes ani86-b {
     from {
-        top: 55px; left: 55px;
+        top: 95px; left: 55px;
     }
     to {
         top: 0px; left: 0px;
@@ -3597,7 +3597,7 @@
 }
 @keyframes ani86-b {
     from {
-        top: 55px; left: 55px;
+        top: 95px; left: 55px;
     }
     to {
         top: 0px; left: 0px;
