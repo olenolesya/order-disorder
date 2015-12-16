@@ -79,19 +79,23 @@ a:hover {
 }
 
 h1{
-    color: #211ad4;
+    color: #6171ac;
     margin: 15px 0px;
 }
 
 h2{
     text-align: center;
-    color: #2d7eff; 
+    color: #0062ff; 
     transition: color;
     transition-duration: 0.3s;
 }
 
+h2 {
+    color: #2d7eff;    
+}
+
 .open-text:hover h2, .open-text-2:hover h2 {
-    color: #211ad4;
+    color: #7862c1;
 }
 
 .text, .text-2 {
@@ -106,6 +110,11 @@ h2{
     background-color: rgba(240, 248, 255, 0.9);
     padding: 15px 60px;
     margin-top: 25px;
+}
+
+.head-part {
+    background: linear-gradient(180deg, #14004a, #005750) no-repeat; 
+    color: whitesmoke;
 }
 
 /* teos */
@@ -254,7 +263,7 @@ h2{
     content: "";
     position: relative;
     display: block;
-    bottom: -110px;
+    bottom: -10px;
     width: 100%;
     height: 100px;
     background-color: red;
