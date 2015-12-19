@@ -47,6 +47,7 @@ li {
 }
 
 a {
+    font-size: 19px;
     cursor: crosshair;
     display: inline-block;
     vertical-align: top;
@@ -60,14 +61,18 @@ a {
 }
 
 .p-a {
-    color: #a3e3e1;
-    font-size: 16px;
+    color: #6d7674;
+    font-size: 17px;
     border: none;
     margin-top: 5px;
 }
 
 .p-a:hover {
     color: #ffffff;
+}
+
+.p-a-active {
+    color: aliceblue;
 }
 
 a:hover {
@@ -79,7 +84,7 @@ a:hover {
 }
 
 h1{
-    color: #6171ac;
+    color: #888888;
     margin: 15px 0px;
 }
 
@@ -109,12 +114,26 @@ h2 {
 .content {
     background-color: rgba(240, 248, 255, 0.9);
     padding: 15px 60px;
-    margin-top: 25px;
+    margin: 25px;
 }
 
 .head-part {
-    background: linear-gradient(180deg, #14004a, #005750) no-repeat; 
+    background: linear-gradient(180deg, #18092e, #103431) no-repeat; 
     color: whitesmoke;
+    text-align: center;
+}
+
+img {
+    display: block;
+    margin: auto;
+    padding-top: 5px;
+}
+
+.img-inline {
+    display: inline-block;
+    vertical-align: top;
+    margin: 0;
+    padding: 0;
 }
 
 /* teos */
@@ -150,10 +169,6 @@ h2 {
     position: relative;
     display: inline-block;
     vertical-align: top;
-    /*width: 7px;
-    height: 7px;
-    border: 4px solid;
-    */
     width: 15px;
     height: 15px;
     border-radius: 100px;
@@ -261,7 +276,7 @@ h2 {
 
 .hide-bottom {
     content: "";
-    position: relative;
+    position: absolute;
     display: block;
     bottom: -10px;
     width: 100%;
